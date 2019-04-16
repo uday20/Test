@@ -1,0 +1,32 @@
+#%RAML 1.0
+title: payments-api
+version: 1.0
+baseUri: https://anypoint.mulesoft.com/mocking/api/v1/links/d63ba345-0483-4bea-9fcc-de83d2c6dca7/ # baseUri:
+
+
+types:
+  datatypeAgency: !include payment/Entry.raml
+  datatypeCheck: !include payment/Check.raml   
+  datatypePayments: !include payment/PaymentsResponse.raml 
+
+/Accounts:
+  post:
+    body:
+      application/json:
+        properties: 
+          Body: !include payment/Body.raml
+    responses:
+      201:
+        body:
+          application/json:
+            example:
+              {"Status": "Success"}
+
+
+            
+
+          
+             
+              
+          
+          

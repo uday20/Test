@@ -1,0 +1,36 @@
+#%RAML 1.0 DataType
+type: object
+properties:
+  PaymentsResponse: 
+    type: object
+    properties:
+      return:
+        type: object
+        properties:
+          ExpenseTotal:
+            type: string
+            required: true
+          IndemnityTotal:
+            type: string
+            required: true
+          LossTotal:
+            type: string
+            required: true
+          PaymentInfos:
+            type: object
+            properties:
+              Entry:
+                type: !include Entry.raml
+          SalvageTotal: 
+            type: string
+            required: true
+          SubroTotal:
+            type: string
+            required: true
+          Total:   
+            type: string
+            required: true
+
+
+
+  

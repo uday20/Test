@@ -1,0 +1,109 @@
+{
+   "Body":{
+      "PaymentsResponse":{
+         "return":{
+            "ExpenseTotal":"0.00",
+            "IndemnityTotal":"0.00",
+            "LossTotal":"130.00",
+            "PaymentInfos":{
+               "Entry":[
+                  {
+                     "Agency":{
+                        "AgencyName":"The Turitto Agency Inc",
+                        "AgencyNumber":"22-638"
+                     },
+                     "Check":{
+                        "Category":"Deductible, Depreciation",
+                        "CheckNumber":"0300120002",
+                        "CheckPayees":{
+                           "Entry":"Joseph Kunesh"
+                        },
+                        "IssueDate":"2018-11-12T10:52:42-05:00",
+                        "PaymentType":"Partial",
+                        "Status":"Issued",
+                        "TotalAmount":"100.00"
+                     },
+                     "Claim":{
+                        "ClaimNumber":"ZPA013000064",
+                        "LossDate":"2018-10-20T15:08:00-04:00",
+                        "PublicID":"cc:15001"
+                     },
+                     "CoverageType":"Collision",
+                     "Insured":{
+                        "FirstName":"Joseph",
+                        "LastName":"Kunesh"
+                     },
+                     "PolicyNumber":"1484332",
+                     "StatHandle":"45               001        1704720180430120180430                             L",
+                     "Transaction":{
+                        "Amount":"100.00",
+                        "CostType":"Loss Cost",
+                        "PublicID":"10001"
+                     }
+                  },
+                  {
+                     "Agency":{
+                        "AgencyName":"The Turitto Agency Inc",
+                        "AgencyNumber":"22-638"
+                     },
+                     "Check":{
+                        "Category":"Loss Payment, Diminished Value",
+                        "CheckNumber":"0300120003",
+                        "CheckPayees":{
+                           "Entry":"Joseph Kunesh"
+                        },
+                        "PaymentType":"Partial",
+                        "Staus":"Awaiting submission",
+                        "TotalAmount":"30.00"
+                     },
+                     "Claim":{
+                        "ClaimNumber":"ZPA013000064",
+                        "LossDate":"2018-10-20T15:08:00-04:00",
+                        "PublicID":"cc:15001"
+                     },
+                     "CoverageType":"Rental Reimbursement",
+                     "Insured":{
+                        "FirstName":"Joseph",
+                        "LastName":"Kunesh"
+                     },
+                     "PolicyNumber":"1484332",
+                     "StatHandle":"45               001        1462920180430120180430                             L",
+                     "Transaction":{
+                        "Amount":"30.00",
+                        "CostType":"Loss Cost",
+                        "PublicID":"10002"
+                     }
+                  },
+                  {
+                     "Agency":{
+                        "AgencyName":"The Turitto Agency Inc",
+                        "AgencyNumber":"22-638"
+                     },
+                     "Claim":{
+                        "ClaimNumber":"ZPA013000064",
+                        "LossDate":"2018-10-20T15:08:00-04:00",
+                        "PublicID":"cc:15001"
+                     },
+                     "CoverageType":"Collision",
+                     "Insured":{
+                        "FirstName":"Joseph",
+                        "LastName":"Kunesh"
+                     },
+                     "PolicyNumber":"1484332",
+                     "StatHandle":"45               001        1704720180430120180430                             L",
+                     "Transaction":{
+                        "Amount":"-33.00",
+                        "PayerName":"Joseph Kunesh",
+                        "PublicID":"16003",
+                        "RecoveryCategory":"Credit to loss"
+                     }
+                  }
+               ]
+            },
+            "SalvageTotal":"0.00",
+            "SubroTotal":"0.00",
+            "Total":"97.00"
+         }
+      }
+   }
+}
