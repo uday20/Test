@@ -17,6 +17,7 @@ http://www.springframework.org/schema/beans http://www.springframework.org/schem
     <flow name="post:/Accounts:application/json:payments-api-config">
         <set-property propertyName="Content-Type" value="application/json" doc:name="Property"/>
         <set-payload value="{&#xA;&quot;Status&quot; : &quot;Success&quot;&#xA;}" doc:name="Set Payload"/>
+        <logger level="INFO" doc:name="Logger"/>
     </flow>
     <apikit:mapping-exception-strategy name="payments-api-apiKitGlobalExceptionMapping">
         <apikit:mapping statusCode="404">
